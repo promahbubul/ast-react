@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Attash Rice",
+    "weight": "25 kg",
+    "img": "/images/products/product1.png"
+  },
+  {
+    "id": 2,
+    "name": "Atta",
+    "weight": "2 Kg",
+    "img": "/images/products/product2.png"
+  },
+  {
+    "id": 3,
+    "name": "Masoor dal",
+    "weight": "25 kg",
+    "img": "/images/products/product3.png"
+  },
+  {
+    "id": 4,
+    "name": "Mosquito Coile",
+    "weight": "10 Pcs Coil",
+    "img": "/images/products/product4.png"
+  },
+  {
+    "id": 5,
+    "name": "Black Tea",
+    "weight": "500 Gm",
+    "img": "/images/products/product5.png"
+  },
+  {
+    "id": 6,
+    "name": "Atta",
+    "weight": "50 Kg",
+    "img": "/images/products/product6.png"
+  },
+  {
+    "id": 7,
+    "name": "Katari Nazir Rice",
+    "weight": "25 Kg",
+    "img": "/images/products/product7.png"
+  },
+  {
+    "id": 8,
+    "name": "Miniket Rice",
+    "weight": "25 Kg",
+    "img": "/images/products/product8.png"
+  },
+  {
+    "id": 9,
+    "name": "Nazir Rice",
+    "weight": "25 Kg",
+    "img": "/images/products/product9.png"
+  },
+  {
+    "id": 10,
+    "name": "Super Clean Powder",
+    "weight": "2 Kg",
+    "img": "/images/products/product10.png"
+  },
+  {
+    "id": 11,
+    "name": "Salt",
+    "weight": "1 Kg",
+    "img": "/images/products/product11.png"
+  },
+  {
+    "id": 12,
+    "name": "Soyabin Oil",
+    "weight": "1 Ltr.",
+    "img": "/images/products/product12.png"
+  },
+  {
+    "id": 13,
+    "name": "Mustard oil",
+    "weight": "1 Ltr.",
+    "img": "/images/products/product13.png"
+  },
+  {
+    "id": 14,
+    "name": "Mustard oil",
+    "weight": "2 Ltr.",
+    "img": "/images/products/product14.png"
+  },
+  {
+    "id": 15,
+    "name": "Mustard oil",
+    "weight": "5 Ltr.",
+    "img": "/images/products/product15.png"
+  },
+  {
+    "id": 16,
+    "name": "Soyabin Oil",
+    "weight": "500 ml",
+    "img": "/images/products/product16.png"
+  },
+  {
+    "id": 17,
+    "name": "Guti Sarna Rice",
+    "weight": "25 Kg",
+    "img": "/images/products/product17.png"
+  },
+  {
+    "id": 18,
+    "name": "Soyabin Oil",
+    "weight": "1 Ltr.",
+    "img": "/images/products/product18.png"
+  },
+  {
+    "id": 19,
+    "name": "Soyabin Oil",
+    "weight": "1 Ltr.",
+    "img": "/images/products/product19.png"
+  },
+  {
+    "id": 20,
+    "name": "Soyabin Oil",
+    "weight": "2 Ltr.",
+    "img": "/images/products/product20.png"
+  },
+  {
+    "id": 21,
+    "name": "Soyabin Oil",
+    "weight": "500 ml",
+    "img": "/images/products/product21.png"
+  },
+  {
+    "id": 22,
+    "name": "Soyabin Oil",
+    "weight": "500 ml",
+    "img": "/images/products/product22.png"
+  },
+  {
+    "id": 23,
+    "name": "Soyabin Oil",
+    "weight": "2 Ltr.",
+    "img": "/images/products/product23.png"
+  },
+  {
+    "id": 24,
+    "name": "Soyabin Oil",
+    "weight": "5 Ltr.",
+    "img": "/images/products/product24.png"
+  },
+  {
+    "id": 25,
+    "name": "Soyabin Oil",
+    "weight": "5 Ltr.",
+    "img": "/images/products/product25.png"
+  },
+  {
+    "id": 26,
+    "name": "Soyabin Oil",
+    "weight": "15 Kg",
+    "img": "/images/products/product26.png"
+  },
+  {
+    "id": 27,
+    "name": "Cini Gura Rice",
+    "weight": "25 Kg",
+    "img": "/images/products/product27.png"
+  },
+  {
+    "id": 28,
+    "name": "White Sugar",
+    "weight": "25 Kg",
+    "img": "/images/products/product28.png"
+  }
+]
