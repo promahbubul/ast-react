@@ -8,11 +8,11 @@ const Header = () => {
   return (
     <header className="bg-red-500 font-kadwa  flex flex-row justify-between items-center mx-auto p-5">
       {/* LEFT */}
-      <Link to={"/"} className="w-full  flex flex-col justify-between">
+      <Link to={"/"} className="w-5/12  flex flex-col justify-between">
         <img src="/images/logo2.png" alt="" className="w-24" />
       </Link>
       {/* RIGHT */}
-      <div className="w-full  flex flex-col items-end gap-3">
+      <div className="w-7/12  flex flex-col items-end gap-3">
         {/* RIGHT TOP */}
         <div className="flex flex-row gap-5 text-2xl">
           <div className="flex flex-col items-center gap-1 cursor-pointer">
@@ -62,7 +62,7 @@ const Header = () => {
               <div
                 className={`bg-white inset-x-0  mt-0 cursor-pointer p-2 items-start  fixed border group-hover:flex flex-row justify-between hidden gap-5  `}
               >
-                <div className="w-7/12 border-2 border-red-500font-kadwa">
+                <div className="w-6/12 border-2 border-red-500font-kadwa">
                   <p className="font-normal text-lg text-black font-kadwa ">
                     Our Company
                   </p>
@@ -72,7 +72,7 @@ const Header = () => {
                     we are.
                   </p>
                 </div>
-                <div className="w-5/12 font-jura font-normal text-black flex flex-col">
+                <div className="w-6/12 font-jura font-normal text-black flex flex-col">
                   <NavLink
                     to={"/inception"}
                     className={({ isActive }) =>
@@ -116,6 +116,16 @@ const Header = () => {
                 </div>
               </div>
             </div>
+            <NavLink
+              to={"/products"}
+              className={({ isActive }) =>
+                isActive
+                  ? "border-b-2 border-b-white "
+                  : "duration-300 border-b-2 hover:border-b-white border-b-transparent"
+              }
+            >
+              Products
+            </NavLink>
             <NavLink
               to={"/policy"}
               className={({ isActive }) =>

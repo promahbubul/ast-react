@@ -9,6 +9,7 @@ import Branches from "../pages/Branches/Branches";
 import Policy from "../pages/Policy/Policy";
 import Mission from "../pages/Mission";
 import Contact from "../pages/Contact/Contact";
+import Products from "../pages/Products";
 
 const routes = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const routes = createBrowserRouter([
       {
         path: "/contact-us",
         element: <Contact />,
+      },
+      {
+        path: "/products",
+        element: <Products />,
       },
     ],
   },
