@@ -4,9 +4,11 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import Inception from "../pages/Inception/Inception";
-import Mission from "../pages/Mission/Mission";
+
 import Branches from "../pages/Branches/Branches";
 import Policy from "../pages/Policy/Policy";
+import Mission from "../pages/Mission";
+import Contact from "../pages/Contact/Contact";
 
 const routes = createBrowserRouter([
   {
@@ -26,6 +28,7 @@ const routes = createBrowserRouter([
         path: "/inception",
         element: <Inception />,
       },
+
       {
         path: "/mission",
         element: <Mission />,
@@ -35,11 +38,19 @@ const routes = createBrowserRouter([
         element: <Branches />,
       },
       {
+        path: "/branches",
+        element: <Branches />,
+      },
+      {
         path: "/policy",
         element: <Policy />,
+      },
+      {
+        path: "/contact-us",
+        element: <Contact />,
       },
     ],
   },
 ]);
 
-export default routes
+export default routes;

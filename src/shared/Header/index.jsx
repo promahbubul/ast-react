@@ -1,6 +1,8 @@
 import { FaHeart, FaShoppingCart, FaUserCircle } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
+import { IoMdArrowDropdown } from "react-icons/io";
+import { useState } from "react";
 
 const Header = () => {
   return (
@@ -13,20 +15,20 @@ const Header = () => {
       <div className="w-full  flex flex-col items-end gap-3">
         {/* RIGHT TOP */}
         <div className="flex flex-row gap-5 text-2xl">
-          <div className="flex flex-col items-center gap-1">
+          <div className="flex flex-col items-center gap-1 cursor-pointer">
             <FaShoppingCart />
             <span className="text-sm text-white text-center font-semibold">
               Cart
             </span>
           </div>
-          <div className="flex flex-col items-center gap-1">
+          <div className="flex flex-col items-center gap-1 cursor-pointer">
             <FaHeart />
             <span className="text-sm text-white text-center font-semibold">
               Wishlist
             </span>
           </div>
 
-          <div className="flex flex-col items-center gap-1">
+          <div className="flex flex-col items-center gap-1 cursor-pointer">
             <FaUserCircle />
             <span className="text-sm text-white text-center font-semibold">
               Profile
@@ -46,16 +48,74 @@ const Header = () => {
             >
               Home
             </NavLink>
-            <NavLink
-              to={"/about"}
-              className={({ isActive }) =>
-                isActive
-                  ? "border-b-2 border-b-white "
-                  : "duration-300 border-b-2 hover:border-b-white border-b-transparent"
-              }
-            >
-              About
-            </NavLink>
+            <div className="group">
+              <NavLink
+                to={"/about"}
+                className={({ isActive }) =>
+                  isActive
+                    ? "border-b-2  border-b-white flex flex-row items-center gap-1"
+                    : "duration-300 border-b-2 hover:border-b-white border-b-transparent flex flex-row items-center gap-1"
+                }
+              >
+                About <IoMdArrowDropdown className="text-white" />
+              </NavLink>
+              <div
+                className={`bg-white inset-x-0  mt-0 cursor-pointer p-2 items-start  fixed border group-hover:flex flex-row justify-between hidden gap-5  `}
+              >
+                <div className="w-7/12 border-2 border-red-500font-kadwa">
+                  <p className="font-normal text-lg text-black font-kadwa ">
+                    Our Company
+                  </p>
+                  <p className="font-normal text-lg text-black max-w-xl">
+                    <span className="font-extrabold"> A.S.T</span> is the
+                    largest food company in Bangladesh. Know our story and who
+                    we are.
+                  </p>
+                </div>
+                <div className="w-5/12 font-jura font-normal text-black flex flex-col">
+                  <NavLink
+                    to={"/inception"}
+                    className={({ isActive }) =>
+                      isActive
+                        ? "border-b-2 border-b-red-500  duration-300 w-max "
+                        : "border-b-transparent hover:border-b-red-500 border-b-2  w-max"
+                    }
+                  >
+                    Our Inception
+                  </NavLink>
+                  <NavLink
+                    to={"/mission"}
+                    className={({ isActive }) =>
+                      isActive
+                        ? "border-b-2 border-b-red-500  duration-300 w-max "
+                        : "border-b-transparent hover:border-b-red-500 border-b-2  w-max"
+                    }
+                  >
+                    Mission Vision
+                  </NavLink>
+                  <NavLink
+                    to={"/branches"}
+                    className={({ isActive }) =>
+                      isActive
+                        ? "border-b-2 border-b-red-500  duration-300 w-max "
+                        : "border-b-transparent hover:border-b-red-500 border-b-2  w-max"
+                    }
+                  >
+                    Branches
+                  </NavLink>
+                  <NavLink
+                    to={"/contact-us"}
+                    className={({ isActive }) =>
+                      isActive
+                        ? "border-b-2 border-b-red-500  duration-300 w-max "
+                        : "border-b-transparent hover:border-b-red-500 border-b-2  w-max"
+                    }
+                  >
+                    Contact Us
+                  </NavLink>
+                </div>
+              </div>
+            </div>
             <NavLink
               to={"/policy"}
               className={({ isActive }) =>
