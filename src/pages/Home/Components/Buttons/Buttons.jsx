@@ -4,7 +4,10 @@ import Button from "../../../../shared/ui/Button/Button";
 const Buttons = () => {
   return (
     <div className="flex flex-row gap-[2px] font-kadwa m-5 shadow-md shadow-yellow-500">
-      <Link to={"/contact"} className="w-full">
+      <Link
+        to={"/contact-us"}
+        className="w-full hover:shadow-xl  hover:duration-300"
+      >
         <Button
           text={"Contact us"}
           className={
@@ -12,17 +15,20 @@ const Buttons = () => {
           }
         />
       </Link>
-      <Link to={"/carrer"} className="w-full">
+      <Link
+        to={"/products"}
+        className="w-full hover:shadow-xl  hover:duration-300"
+      >
         <Button
-          text={"Contact us"}
+          text={"Products"}
           className={
             "py-3 bg-red-500 w-full text-white text-2xl font-extrabold"
           }
         />
       </Link>
-      <Link to={"/gallery"} className="w-full">
+      <Link to={"/gallery"} className="w-full hover:shadow-xl duration-300">
         <Button
-          text={"Contact us"}
+          text={"Gallery"}
           className={
             "py-3 bg-red-500 w-full  text-white text-2xl font-extrabold rounded-r-md"
           }
