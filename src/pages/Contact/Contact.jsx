@@ -33,12 +33,12 @@ const Contact = () => {
       <div className="flex flex-col gap-2 p-5 mb-14 font-medium">
         <p className="font-jura text-2xl">Our Corporate Headquarters -</p>
         <p className="font-jura text-2xl">A.S.T Center</p>
-        <p className="font-jura text-2xl">
-          A.S.T Bhuiyan Dstribution Taltola, Shampur,
-        </p>
+        <p className="font-jura text-2xl">Bhuiyan Manson, Taltola, Shampur,</p>
         <p className="font-jura text-2xl">Dhaka-1204, Bangladesh.</p>
         <p className="font-jura text-2xl">Phone: +8801909068439 </p>
-        <p className="font-jura text-2xl">Phone: +8801901025307</p>
+        <p className="font-jura text-2xl">
+          Whatsapp: +8801901025307, +8801901025306
+        </p>
         <p className="font-jura text-2xl">Gmail- salambhuiyan2023@gmail.com</p>
       </div>
       <div className="bg-yellow-500 pt-20 p-5 shadow-md shadow-yellow-500">

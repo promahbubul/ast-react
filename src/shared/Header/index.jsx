@@ -2,20 +2,22 @@ import { FaHeart, FaShoppingCart, FaUserCircle } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom";
 import { IoMdArrowDropdown } from "react-icons/io";
-import { useState } from "react";
 
 const Header = () => {
   return (
-    <header className="bg-red-500 font-kadwa  flex flex-row justify-between items-center mx-auto p-5">
+    <header className="bg-red-500 font-kadwa gap-5 md:gap-0  flex flex-row justify-between items-center mx-auto p-2 md:p-5">
       {/* LEFT */}
-      <Link to={"/"} className="w-5/12  flex flex-col justify-between">
-        <img src="/images/logo2.png" alt="" className="w-24" />
+      <Link
+        to={"/"}
+        className="w-3/12 md:w-4/12  flex flex-col justify-between"
+      >
+        <img src="/images/logo2.png" alt="" className="w-full md:w-24" />
       </Link>
       {/* RIGHT */}
-      <div className="w-7/12  flex flex-col items-end gap-3">
+      <div className="w-9/12 md:w-8/12  flex flex-col items-end gap-3">
         {/* RIGHT TOP */}
-        <div className="flex flex-row gap-5 text-2xl">
-          <div className="flex flex-col items-center gap-1 cursor-pointer">
+        <div className="flex flex-row gap-3 md:gap-5 text-xl md:text-2xl">
+          <div className="hidden md:flex flex-col items-center gap-1 cursor-pointer">
             <FaShoppingCart />
             <span className="text-sm text-white text-center font-semibold">
               Cart
@@ -23,21 +25,21 @@ const Header = () => {
           </div>
           <div className="flex flex-col items-center gap-1 cursor-pointer">
             <FaHeart />
-            <span className="text-sm text-white text-center font-semibold">
+            <span className="text-xs md:text-sm text-white text-center font-semibold">
               Wishlist
             </span>
           </div>
 
           <div className="flex flex-col items-center gap-1 cursor-pointer">
             <FaUserCircle />
-            <span className="text-sm text-white text-center font-semibold">
+            <span className="text-xs md:text-sm text-white text-center font-semibold">
               Profile
             </span>
           </div>
         </div>
         {/* RIGHT BOTTOM */}
-        <div className="flex flex-row items-center gap-10">
-          <div className="text-white text-lg flex flex-row gap-5 font-semibold">
+        <div className="flex flex-col-reverse md:flex-row items-center gap-2 md:gap-10">
+          <div className="text-white text-xs md:text-sm flex flex-row gap-5 font-semibold">
             <NavLink
               to={"/"}
               className={({ isActive }) =>
@@ -116,16 +118,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <NavLink
-              to={"/products"}
-              className={({ isActive }) =>
-                isActive
-                  ? "border-b-2 border-b-white "
-                  : "duration-300 border-b-2 hover:border-b-white border-b-transparent"
-              }
-            >
-              Products
-            </NavLink>
+
             <NavLink
               to={"/policy"}
               className={({ isActive }) =>
@@ -141,7 +134,7 @@ const Header = () => {
             <IoSearch className="absolute top-1/2 -translate-y-1/2 left-3 text-lg text-yellow-500 font-extrabold cursor-pointer " />
             <input
               type="text"
-              className="w-60 text-base py-1 rounded-md px-2 placeholder:text-center text-center outline-none"
+              className="w-full md:w-60 text-base py-1 rounded-md px-2 placeholder:text-center text-center outline-none"
               placeholder="Search Products"
             />
           </div>

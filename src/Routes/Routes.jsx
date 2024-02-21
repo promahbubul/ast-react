@@ -10,6 +10,7 @@ import Policy from "../pages/Policy/Policy";
 import Mission from "../pages/Mission";
 import Contact from "../pages/Contact/Contact";
 import Products from "../pages/Products";
+import TearmsCondition from "../pages/TearmsCondition/TearmsCondition";
 
 const routes = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const routes = createBrowserRouter([
       {
         path: "/products",
         element: <Products />,
+      },
+      {
+        path: "/condition",
+        element: <TearmsCondition />,
       },
     ],
   },
