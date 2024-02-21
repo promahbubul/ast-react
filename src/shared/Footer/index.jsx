@@ -20,7 +20,7 @@ const Footer = () => {
             <p className="">Corporate Headquarters: </p>
             <p className="">A.S.T Center</p>
             <p className="">Bhuiyan Manson, Taltola, Shampur,</p>
-            <p className="">Dhaka - 1212, Bangladesh.</p>
+            <p className="">Dhaka - 1204, Bangladesh.</p>
             <p className="">Phone: +8801909068439</p>
             <p className="">Whatsapp: +8801901025306, +8801901025307</p>
             <p className="">© A.S.T-FOODS. 2024</p>
@@ -47,7 +47,7 @@ const Footer = () => {
               <Item title={"Helpline"} img={"/images/icons/headphone.png"} />
             </Link>
             <Link
-              to={"https://maps.app.goo.gl/Zj29H8GSKHWx5yyj8"}
+              to={"https://maps.app.goo.gl/gDErpEeKS6No2KtdA"}
               target="_blank"
             >
               <Item title={"Map"} img={"/images/icons/map.png"} />
