@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import SinglePage from "../../shared/SinglePage/SinglePage";
 import emailjs from "@emailjs/browser";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
@@ -32,8 +33,9 @@ const Contact = () => {
     <SinglePage pageTitle={"Contact with A.S.T"}>
       <div className="flex flex-col gap-2 p-5 mb-14 font-medium">
         <p className="font-jura text-base md:text-2xl">
-          Corporate Headquarter:
+          Our Corporate Headquarters -
         </p>
+        <p className="font-jura text-base md:text-2xl">A.S.T Center</p>
         <p className="font-jura text-base md:text-2xl">
           Bhuiyan Manson, Taltola, Shampur,
         </p>
@@ -108,9 +110,11 @@ const Contact = () => {
           </div>
         </form>
 
-        <p className="font-jura text-left text-base font-semibold">
-          Or any inquire for website- <br /> https://e-mprove.co.uk/
-        </p>
+        <Link to={"https://e-mprove.co.uk/"} target="_blank">
+          <p className="font-jura text-left text-base font-semibold">
+            Or any inquire for website- <br /> https://e-mprove.co.uk/
+          </p>
+        </Link>
       </div>
     </SinglePage>
   );

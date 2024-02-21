@@ -19,12 +19,14 @@ const Footer = () => {
           <div className="text-black text-sm md:text-base font-bold flex flex-col gap-2">
             <p className="">Corporate Headquarters: </p>
             <p className="">A.S.T Center</p>
-            <p className="">105 Pragati Sarani, Middle Badda,</p>
+            <p className="">Bhuiyan Manson, Taltola, Shampur,</p>
             <p className="">Dhaka - 1212, Bangladesh.</p>
-            <p className="">Phone: +880-2222281792 Ext-345</p>
-            <p className="">Fax: +88-02-8837464</p>
+            <p className="">Phone: +8801909068439</p>
+            <p className="">Whatsapp: +8801901025306, +8801901025307</p>
             <p className="">© A.S.T-FOODS. 2024</p>
-            <p className="">E-mprove Technology</p>
+            <Link to={"https://e-mprove.co.uk/"} target="_blank">
+              <p className="">E-mprove Technology</p>
+            </Link>
           </div>
         </div>
         {/* FOOTER RIGHT */}
