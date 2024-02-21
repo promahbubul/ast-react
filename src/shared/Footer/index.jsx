@@ -5,15 +5,15 @@ const Footer = () => {
   return (
     <footer className="bg-silver-100  font-kadwa">
       <div className="bg-yellow-500 py-3 mt-2">
-        <h2 className=" leading-tight text-center  text-2xl font-bold">
+        <h2 className=" leading-tight text-center  text-xl md:text-2xl font-bold">
           Contact Us
         </h2>
       </div>
       {/* FOOTER CONTAINER */}
       <div className="p-2 md:p-5 flex flex-col md:flex-row justify-between">
         {/* FOOTER LEFT */}
-        <div className="flex flex-col md:flex-row gap-5  items-center w-full">
-          <Link to={"/"}>
+        <div className="flex flex-col md:flex-row gap-5 items-start md:items-center w-full">
+          <Link to={"/"} className="mx-auto">
             <img src="/images/logo2.png" alt="" className="w-24 h-24" />
           </Link>
           <div className="text-black text-sm md:text-base font-bold flex flex-col gap-2">

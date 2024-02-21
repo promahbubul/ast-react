@@ -19,9 +19,10 @@ const Branches = () => {
   console.log(branches1);
   return (
     <SinglePage
+      className={"text-xl"}
       pageTitle={"Branches of A.S.T Bangladesh in all Districts of Bangladesh"}
     >
-      <div className="flex flex-row justify-around gap-5 p-5 mb-20">
+      <div className="flex flex-col md:flex-row justify-around gap-5 p-5 mb-20">
         {/* BRANCHES SIDE 1 */}
         <div className="flex flex-col ">
           {branches1.map((branche) => (

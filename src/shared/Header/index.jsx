@@ -62,7 +62,7 @@ const Header = () => {
                 About <IoMdArrowDropdown className="text-white" />
               </NavLink>
               <div
-                className={`bg-white inset-x-0  mt-0 cursor-pointer p-2 items-start  fixed border group-hover:flex flex-row justify-between hidden gap-5  `}
+                className={`bg-white inset-x-0  mt-0 cursor-pointer p-2 items-start  fixed border group-hover:flex flex-row justify-between hidden mx-2 shadow-2xl rounded-b-xl md:rounded-none shadow-silver md:shadow-none md:m-0 gap-5  `}
               >
                 <div className="w-6/12 border-2 border-red-500font-kadwa">
                   <p className="font-normal text-lg text-black font-kadwa ">

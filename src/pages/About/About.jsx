@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <SinglePage pageTitle={"About A.S.T"}>
-        <div className="flex flex-col gap-5 p-5">
+        <div className="flex flex-col  gap-5 p-5">
           <Pera>
             AST Bangladesh is a leading food distribution brand, proudly
             permitted by BSTI Bangladesh, dedicated to providing the finest

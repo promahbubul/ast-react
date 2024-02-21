@@ -14,7 +14,7 @@ const Products = () => {
   return (
     <div>
       <SinglePage pageTitle={"Products"}>
-        <div className="grid grid-cols-12 gap-8 p-10">
+        <div className="md:grid grid-cols-12 gap-8 p-2 md:p-10">
           {products.map((product) => (
             <div key={product.id} className="col-span-3 cursor-pointer">
               <img src={product.img} alt="" className="mb-2" />
