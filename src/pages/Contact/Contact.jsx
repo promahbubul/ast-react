@@ -8,7 +8,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_dkp085p", "template_o9230x8", form.current, {
+      .sendForm("service_ooa2oro", "template_o9230x8", form.current, {
         publicKey: "BlssWX1RCombXcGn5",
       })
       .then(
@@ -32,9 +32,8 @@ const Contact = () => {
     <SinglePage pageTitle={"Contact with A.S.T"}>
       <div className="flex flex-col gap-2 p-5 mb-14 font-medium">
         <p className="font-jura text-base md:text-2xl">
-          Our Corporate Headquarters -
+          Corporate Headquarter:
         </p>
-        <p className="font-jura text-base md:text-2xl">A.S.T Center</p>
         <p className="font-jura text-base md:text-2xl">
           Bhuiyan Manson, Taltola, Shampur,
         </p>
